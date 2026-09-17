@@ -5,9 +5,9 @@ import joblib
 import plotly.graph_objects as go
 import plotly.express as px
 
-model = joblib.load('../models/churn_model.pkl')
-scaler = joblib.load('../models/scaler.pkl')
-columns = joblib.load('../models/model_columns.pkl')
+model = joblib.load('models/churn_model.pkl')
+scaler = joblib.load('models/scaler.pkl')
+columns = joblib.load('models/model_columns.pkl')
 
 st.set_page_config(page_title="Churn Intelligence", page_icon="🪐", layout="wide")
 
